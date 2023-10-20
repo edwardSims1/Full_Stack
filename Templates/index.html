@@ -2,23 +2,20 @@
 <html> 
  <head> 
    <title>Flask Static Demo</title>
-   <link rel="stylesheet" href="/style.css"/>
+   <link rel="stylesheet" href="/static/style.css"/>
+  
  </head> 
  <body> 
    <h1>Hello World</h1>
 
-   <audio controls> 
-    <source src="/static/audio.mp3" /> 
-  </audio> 
+   <a href="image">images</a>
+   <a href="/video">video</a>
+   <a href="/audio">audio</a>
+
    
-   
-   <video width="320" height="240" controls> 
-    <source src="/Ocean.jpeg" type="video/mp4" /> 
-  </video> 
+
+   <script src="/static/serve.js" charset="utf-8"></script> 
+  </body> 
+ </html> 
 
 
-   <img src="/cat.avif" alt="Cat image" width="20%" height="auto" /> 
-
-   <script src="/serve.js" charset="utf-8"></script> 
- </body> 
-</html> 
